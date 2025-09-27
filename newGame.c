@@ -15,7 +15,7 @@ void logMove(FILE *log, char *board, int size, int row, int col, char symbol);
 
 int main() {
 	int size;
-        printf("Enter the board size N (3 <= N <= 10): ", MIN_SIZE, MAX_SIZE); // Ask the board size from the user
+        printf("Enter the board size N (3 <= N <= 10): "); // Ask the board size from the user
         scanf("%d", &size);
       
         if (size < MIN_SIZE || size > MAX_SIZE) { // Validation of the board size
